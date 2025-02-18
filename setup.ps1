@@ -58,6 +58,10 @@ function Install-NerdFonts {
     }
 }
 
+
+
+##### MAIN FUNCTION #####
+
 # Check for internet connectivity before proceeding
 if (-not (Test-InternetConnection)) {
     break
